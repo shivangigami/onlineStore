@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './Login.css'
 import {ProfileImage} from '../../assets/images'
 import * as Yup from 'yup'
+import { Link } from 'react-router-dom'
 
 
 
@@ -73,10 +74,10 @@ console.log('Visited fields', formik.touched)
                     ):null}
                 </FormGroup>
 
-                <Button className='submit-button'
+                <Button className='login-button'
                 color='success'
-                outline>Submit</Button>
-                <p className='signUp-button'>Register now <a href=''>Sign Up</a></p>
+                outline>Login</Button>
+                <p className='signUp-button'>No Account ? <Link to='/register'>Sign Up Now</Link></p>
             </Form>
             </Card>
         </div>
