@@ -1,0 +1,39 @@
+.form-input {
+    width: 350px !important;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.container {
+    width: 500px;
+    margin-top: 200px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.error-message{
+    color: red;
+    text-align: left;
+}
+.submit-button {
+    width: 350px !important;
+}
+.signUp-button {
+    margin-top: 30px;
+    color: white;
+}
+.signUp-button a {
+    color: tomato;
+    text-decoration: none;
+}
